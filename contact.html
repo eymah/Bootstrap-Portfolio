@@ -13,16 +13,16 @@
 
     <br>    
 
-        <div class="container" style= "border-bottom:1.5px solid teal">
+        <div class="container-fluid py-3" style= "border-bottom:1.5px solid teal">
             
             <div class="row bg-light">
                 <div class="col-md-2"></div>
 
-                <div class="col-md-2 bg-info text-center rounded">   
+                <div class="col-md-1 bg-info text-center rounded">   
                 <strong><h3>Eymah Nuzhat</h3></strong>
                 </div>
                 
-                <div class="col-sm-3"></div>
+                <div class="col-md-4"></div>
                 <div>
                     <a href="index.html"><button type="button" class="btn btn-light btn-lg border-0" > About </button></a>
                     <a href="contact.html"><button type="button" class="btn btn-light btn-lg border-0" > Contact </button></a>
@@ -31,5 +31,113 @@
             </div>
         </div>
                 
-                <br>
-                <br>
+        <br>
+        <br>
+
+        <div class="container-fluid" >
+        
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-sm-8 text-left rounded bg-light" style= "border: 1.5px solid teal">
+        
+    <section class="mb-4">
+
+        
+        <h3 class="h1-responsive text-left my-4">Contact us</h3>
+        
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. We will back to you within
+            hours to help you.</p>
+    
+        <div class="row">
+    
+            
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <div class="row">
+    
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+    
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-secondary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+    
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Bellevue, WA 98007, USA</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 01 544 545 454</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>contact@abcd.com</p>
+                    </li>
+                </ul>
+            </div>
+            
+    
+        </div>
+    
+    </section>
+    
+        
+        </div>
+    </div>
+
+    <br>
+<br>
+<br>
+
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-sm-12 bg-light text-center rounded-top py-3" style= "border-top: 1.5px solid teal" >copyright
+            </div>
+
+        </div>
+    </body>
+
+</html>
+   
